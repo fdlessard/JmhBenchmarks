@@ -1,0 +1,3 @@
+JMH S 42 io.fdlessard.codebites.jmh.LoopsBenchmarks S 71 io.fdlessard.codebites.jmh.generated.LoopsBenchmarks_sumForEach_jmhTest S 10 sumForEach S 11 AverageTime E A 1 1 1 E I 1 5 E E I 1 5 E E I 1 5 E E E E E E U 11 NANOSECONDS E E 
+JMH S 42 io.fdlessard.codebites.jmh.LoopsBenchmarks S 71 io.fdlessard.codebites.jmh.generated.LoopsBenchmarks_sumForLoop_jmhTest S 10 sumForLoop S 11 AverageTime E A 1 1 1 E I 1 5 E E I 1 5 E E I 1 5 E E E E E E U 11 NANOSECONDS E E 
+JMH S 42 io.fdlessard.codebites.jmh.LoopsBenchmarks S 70 io.fdlessard.codebites.jmh.generated.LoopsBenchmarks_sumStream_jmhTest S 9 sumStream S 11 AverageTime E A 1 1 1 E I 1 5 E E I 1 5 E E I 1 5 E E E E E E U 11 NANOSECONDS E E 
