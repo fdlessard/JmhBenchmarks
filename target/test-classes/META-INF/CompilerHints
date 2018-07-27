@@ -1,9 +1,0 @@
-dontinline,*.*_all_jmhStub
-dontinline,*.*_avgt_jmhStub
-dontinline,*.*_sample_jmhStub
-dontinline,*.*_ss_jmhStub
-dontinline,*.*_thrpt_jmhStub
-inline,io/fdlessard/codebites/jmh/LoopsBenchmarks.initialize
-inline,io/fdlessard/codebites/jmh/LoopsBenchmarks.sumForEach
-inline,io/fdlessard/codebites/jmh/LoopsBenchmarks.sumForLoop
-inline,io/fdlessard/codebites/jmh/LoopsBenchmarks.sumStream
