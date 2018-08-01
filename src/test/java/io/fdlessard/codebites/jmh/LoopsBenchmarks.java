@@ -19,6 +19,8 @@ public class LoopsBenchmarks {
 
     private List<Integer> integers = new ArrayList<>();
 
+    private Integer[] integerArray;
+
     public static void main(String[] args) throws Exception {
         org.openjdk.jmh.Main.main(args);
     }
@@ -26,9 +28,17 @@ public class LoopsBenchmarks {
     @Setup(Level.Trial)
     public synchronized void initialize() {
 
+        integerArray = new Integer[arraySize];
+
         for (int i = 0; i < arraySize; i++) {
+            integerArray[i] = Integer.valueOf(i);
             integers.add(Integer.valueOf(i));
         }
+    }
+
+    @Benchmark
+    public void sumArrayForLoopWrapper() {
+        long sum = Loops.sumArrayForLoopWrapper(integerArray);
     }
 
     @Benchmark

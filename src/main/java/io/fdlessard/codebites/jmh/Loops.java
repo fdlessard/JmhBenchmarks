@@ -6,6 +6,22 @@ import java.util.List;
 public class Loops {
 
 
+    public static long sumArrayForLoopWrapper(Integer[] numbers) {
+
+        if (numbers == null || numbers.length == 0) {
+            return 0;
+        }
+
+        long sum = 0;
+
+        for (int i = 0; i < numbers.length; i++) {
+            sum = sum + numbers[i];
+        }
+
+        return sum;
+    }
+
+
     public static long sumForLoop(List<Integer> numbers) {
 
         if (numbers == null || numbers.isEmpty()) {
